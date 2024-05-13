@@ -1,0 +1,378 @@
+.hidden,
+[hidden] {
+    display: none !important
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table
+}
+
+.clearfix::after {
+    clear: both
+}
+
+* {
+    box-sizing: border-box
+}
+
+body,
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #00233b;
+    font-weight: 400
+}
+
+h1,
+.h1 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: 900;
+    color: #00233b
+}
+
+h2,
+.h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #00233b
+}
+
+h3,
+.h3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    color: #00233b
+}
+
+h4,
+.h4 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #00233b
+}
+
+h5,
+.h5 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 500
+}
+
+h6,
+.h6 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+a {
+    color: #f60;
+    text-decoration: underline;
+    transition: all 0.3s ease
+}
+
+a:hover {
+    text-decoration: none
+}
+
+header .cmp-wpb-container {
+    display: flex;
+    align-items: center;
+    position: relative
+}
+
+
+.compensar-program-template .breadcrumb {
+    max-width: 48%
+}
+
+.cmp-wpb-container {
+    width: 1400px;
+    margin: 0 auto;
+    max-width: calc(100% - 40px)
+}
+
+.cmp-right-header {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.cmp-right-header>ul {
+    display: flex;
+    margin-left: auto;
+    margin-top: 50px
+}
+
+.cmp-main-menu-wrapper,
+.cmp-main-menu {
+    display: flex;
+    align-items: center
+}
+
+.cmp-sidebar {
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 18px
+}
+
+.cmp-sidebar li {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 40px;
+    font-size: 14px
+}
+
+.cmp-sidebar li a {
+    color: inherit;
+    text-decoration: none
+}
+
+.cmp-sidebar li a:hover {
+    text-decoration: underline
+}
+
+.search .cmp-wpb-page-content .cmp-search-form {
+    padding: 0
+}
+
+.search .cmp-wpb-page-content .compensar-search-from {
+    width: 100%
+}
+
+.search .cmp-wpb-page-content .cmp-search-form {
+    position: static !important
+}
+
+.right-content-404 .cmp-search-form,
+.search .cmp-wpb-page-content .cmp-search-form {
+    display: block;
+    position: static;
+    max-width: 900px;
+    width: 100%
+}
+
+
+.communication-section .cmp-wpb-container {
+    display: block;
+    flex-wrap: nowrap
+}
+.banner-sm+.communication-section .communtion-img-block {
+    margin-top: -46px
+}
+
+.communication-social {
+    width: 51%;
+    float: left;
+    padding-top: 33px;
+    padding-right: 35px;
+    max-width: 610px
+}
+
+.communication-social-content {
+    width: 51%;
+    float: left;
+    padding-right: 35px;
+    max-width: 610px
+}
+
+.line-heading {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px
+}
+
+.line-heading:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #f60;
+    display: block;
+    left: 0;
+    top: 16px;
+    z-index: -1
+}
+
+.line-heading span {
+    font-size: 14px;
+    line-height: 25px;
+    color: #f60;
+    border: 1px solid #f60;
+    padding: 5px 41px;
+    border-radius: 18px;
+    background: #fff
+}
+
+.communtion-img-block .information {
+    background: #617989
+}
+
+.communtion-img-block ul {
+    margin: 0;
+    padding: 15px 30px 5px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.communtion-img-block ul li {
+    font-size: 16px;
+    color: #fff;
+    padding-right: 19px;
+    line-height: 25px;
+    padding-bottom: 10px
+}
+
+.communtion-img-block ul li span {
+    font-weight: 700;
+    margin-right: 5px
+}
+
+
+.cards-section {
+    padding: 100px 0 0 0
+}
+
+.cards-section .cmp-wpb-container {
+    justify-content: center;
+    display: block
+}
+
+.cards-section h3 {
+    margin: 0 0 54px 0;
+    text-align: center
+}
+
+.cards-section .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.cards-section .cards .card-block {
+    width: calc(33.3333% - 20px);
+    background-color: #f8f7f5;
+    border-radius: 16px;
+    padding: 46px;
+    text-align: center
+}
+
+
+
+@media (min-width:1024px) {
+    .cmp-right-header {
+        display: flex !important
+    }
+}
+
+@media (max-width:1023px) {
+    .cmp-right-header {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: none;
+        bottom: 0;
+        overflow: auto
+    }
+    
+    .cmp-right-header>ul {
+        display: block
+    }
+
+    .cmp-main-menu-wrapper,
+    .cmp-main-menu {
+        display: block
+    }
+
+    .cmp-main-menu>li {
+        margin-left: 0
+    }
+
+    .cmp-main-menu>li>a {
+        padding: 19px 30px 19px 0
+    }
+
+    .cmp-main-menu>li.program-dd>ul {
+        width: 100%;
+        transform: translateX(0)
+    }
+    .cmp-sidebar li+li {
+        margin-top: 16px
+    }
+    .labor-section {
+        padding-top: 45px
+    }
+
+    .labor-section .cmp-wpb-container {
+        flex-direction: column;
+        max-width: 100%
+    }
+
+    .labor-section .laboral-text {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px
+    }
+
+    .labor-section .laboral-img {
+        width: 100%
+    }
+
+}
+
+@media (max-width:1330px) {
+    .cmp-sidebar li {
+        margin-left: 20px
+    }
+}
